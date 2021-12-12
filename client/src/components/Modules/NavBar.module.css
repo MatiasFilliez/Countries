@@ -1,0 +1,21 @@
+/* .all {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 400px;
+}
+.link {
+  text-decoration-color: none;
+}
+ */
+.all {
+  display: flex;
+  justify-content: center;
+}
+.link {
+  padding-right: 5px;
+}
+
+.create {
+  padding-left: 5px;
+}

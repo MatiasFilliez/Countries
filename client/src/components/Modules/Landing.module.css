@@ -1,0 +1,50 @@
+.fondo {
+  background-image: url(../../img/landing-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 100vh;
+  width: 100vw;
+  text-decoration: none;
+}
+.saludo {
+  /*   right: 0.5rem;
+  top: 0.5em;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 0.5rem;
+
+  height: 30px;
+  width: 300px;
+  border-radius: 9999px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(52, 105, 228);
+  background-color: rgb(66, 116, 255);
+  text-decoration-color: none;
+
+  position: relative; */
+  grid-column: 1 / 4;
+  justify-self: center;
+  grid-row: 1 /4;
+  align-self: center;
+
+  background-color: rgba(109, 133, 138, 0.363);
+  padding-bottom: 0px;
+  border-radius: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  font-size: 35px;
+  text-decoration: none;
+}
+.saludo :hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}

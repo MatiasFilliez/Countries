@@ -1,0 +1,34 @@
+.container {
+  background-image: url(../../img/create-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.title {
+  display: flex;
+  font-size: 30px;
+  padding-bottom: 50px;
+  padding-left: 5px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.404);
+  grid-template-rows: 3fr 1fr;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.gral {
+  display: flex;
+  padding-top: 300px;
+}
